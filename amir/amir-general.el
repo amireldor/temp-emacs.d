@@ -1,4 +1,5 @@
 (require 'amir-customize)
+(require 'amir-python)
 
 (ac-config-default)
 (require 'better-defaults)
