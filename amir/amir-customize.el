@@ -7,11 +7,12 @@
  '(default-frame-alist
     (quote
      ((horizontal-scroll-bars)
-      (width . 121)
-      (height . 47)
-      (vertical-scroll-bars))))
+      (width . 91)
+      (height . 42))))
  '(inhibit-startup-screen t)
- '(package-selected-packages (quote (ace-jump-mode auto-complete))))
+ '(package-selected-packages
+   (quote
+    (better-defaults dtrt-indent company-terraform terraform-mode company avy))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
