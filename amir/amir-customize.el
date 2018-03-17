@@ -13,7 +13,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (magit markdown-mode better-defaults dtrt-indent company-terraform terraform-mode company avy))))
+    (markdown-preview-mode magit markdown-mode better-defaults dtrt-indent company-terraform terraform-mode company avy))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
