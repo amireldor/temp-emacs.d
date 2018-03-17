@@ -3,7 +3,7 @@
 (require 'amir-python)
 (require 'amir-keybind)
 
-(setq avy-timeout-seconds 0.2)
+(setq avy-timeout-seconds 0.33)
 (dtrt-indent-global-mode)
 (setq markdown-command "markdown_py")
 
