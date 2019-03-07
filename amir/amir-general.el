@@ -14,4 +14,6 @@
   (setq mac-command-modifier 'meta)
   )
 
+(require 'expand-region)
+
 (provide 'amir-general)
