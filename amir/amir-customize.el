@@ -12,6 +12,7 @@
       (width . 91)
       (height . 42))))
  '(inhibit-startup-screen t)
+ '(initial-scratch-message nil)
  '(package-selected-packages
    (quote
     (expand-region markdown-preview-mode magit markdown-mode better-defaults dtrt-indent company-terraform terraform-mode company avy))))

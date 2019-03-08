@@ -10,4 +10,8 @@
     (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/")))))
 (package-initialize)
 
+(unless package-archive-contents
+  (package-refresh-contents))
+(package-install-selected-packages)
+
 (provide 'amir-packages)
