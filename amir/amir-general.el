@@ -15,5 +15,6 @@
   )
 
 (require 'expand-region)
+(require 'multiple-cursors)
 
 (provide 'amir-general)

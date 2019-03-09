@@ -11,11 +11,13 @@
      ((horizontal-scroll-bars)
       (width . 91)
       (height . 42))))
+ '(electric-pair-mode t)
  '(inhibit-startup-screen t)
  '(initial-scratch-message nil)
  '(package-selected-packages
    (quote
-    (expand-region markdown-preview-mode magit markdown-mode better-defaults dtrt-indent company-terraform terraform-mode company avy))))
+    (multiple-cursors expand-region markdown-preview-mode magit markdown-mode better-defaults dtrt-indent company-terraform terraform-mode company avy)))
+ '(word-wrap t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
