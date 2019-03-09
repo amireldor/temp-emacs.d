@@ -11,6 +11,7 @@
      ((horizontal-scroll-bars)
       (width . 91)
       (height . 42))))
+ '(delete-old-versions t)
  '(electric-pair-mode t)
  '(inhibit-startup-screen t)
  '(initial-scratch-message nil)

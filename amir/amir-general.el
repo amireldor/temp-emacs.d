@@ -2,6 +2,7 @@
 (require 'amir-packages)
 (require 'amir-python)
 (require 'amir-keybind)
+(require 'amir-small-things)
 
 (setq avy-timeout-seconds 0.33)
 (dtrt-indent-global-mode)
