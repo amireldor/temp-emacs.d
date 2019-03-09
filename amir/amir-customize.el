@@ -17,7 +17,7 @@
  '(initial-scratch-message nil)
  '(package-selected-packages
    (quote
-    (multiple-cursors expand-region markdown-preview-mode magit markdown-mode better-defaults dtrt-indent company-terraform terraform-mode company avy)))
+    (use-package)))
  '(word-wrap t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

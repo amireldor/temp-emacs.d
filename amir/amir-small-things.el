@@ -1,3 +1,5 @@
+;; Customized from: https://dev.to/deciduously/how-i-emacs-and-so-can-you-4434
+
 (setq version-control t)
 (setq vc-make-backup-files t)
 (setq vc-follow-symlinks t)
