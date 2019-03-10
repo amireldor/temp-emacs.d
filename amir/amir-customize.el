@@ -15,9 +15,7 @@
  '(electric-pair-mode t)
  '(inhibit-startup-screen t)
  '(initial-scratch-message nil)
- '(package-selected-packages
-   (quote
-    (use-package)))
+ '(package-selected-packages (quote (use-package)))
  '(word-wrap t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

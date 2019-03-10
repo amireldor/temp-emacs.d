@@ -31,10 +31,10 @@
   (setq ivy-count-format "%d/%d "))
 
 (use-package multiple-cursors
-  :bind (("C-c e" . 'mc/edit-lines)))
+  :bind (("C-c e" . mc/edit-lines)))
 
 (use-package expand-region
-  :bind ("C-=" . 'er/expand-region))
+  :bind ("C-=" . er/expand-region))
 
 (use-package markdown-preview-mode)
 
@@ -53,9 +53,22 @@
   (add-hook 'after-init-hook global-company-mode))
 
 (use-package avy
-  :bind (("M-s" . 'avy-goto-char-timer)
-         ("C-c M-s" . 'avy-goto-line))
+  :bind (("M-s" . avy-goto-char-timer)
+         ("C-c M-s" . avy-goto-line))
   :config
   (setq avy-timeout-seconds 0.33))
+
+;; Override the basic Emacs commands
+(use-package counsel
+  :init (counsel-mode)
+  :bind (("C-s" . swiper)))
+
+(use-package projectile
+  :init (projectile-mode)
+  :bind-keymap
+  ("C-c p" . projectile-command-map)
+  :config
+  (setq projectile-completion-system 'ivy))
+
 
 (provide 'amir-packages)
