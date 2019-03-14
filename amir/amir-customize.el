@@ -15,7 +15,9 @@
  '(electric-pair-mode t)
  '(inhibit-startup-buffer-menu t)
  '(inhibit-startup-screen t)
- '(initial-scratch-message ";; scratch")
+ '(initial-scratch-message ";; scratch
+
+")
  '(ivy-magic-tilde nil)
  '(package-selected-packages (quote (yaml-mode use-package)))
  '(word-wrap t))

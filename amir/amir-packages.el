@@ -72,4 +72,9 @@
 
 (use-package yaml-mode)
 
+(use-package cyberpunk-theme
+  :config
+  ;;  (add-hook 'after-init-hook (lambda () (load-theme 'cyberpunk t))))
+   (add-hook 'after-init-hook (load-theme 'cyberpunk t)))
+
 (provide 'amir-packages)
