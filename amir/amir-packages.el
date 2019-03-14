@@ -50,7 +50,7 @@
 
 (use-package company
   :config
-  (add-hook 'after-init-hook global-company-mode))
+  (add-hook 'after-init-hook (global-company-mode)))
 
 (use-package avy
   :bind (("M-s" . avy-goto-char-timer)
@@ -70,5 +70,6 @@
   :config
   (setq projectile-completion-system 'ivy))
 
+(use-package yaml-mode)
 
 (provide 'amir-packages)

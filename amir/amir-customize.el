@@ -13,9 +13,11 @@
       (height . 42))))
  '(delete-old-versions t)
  '(electric-pair-mode t)
+ '(inhibit-startup-buffer-menu t)
  '(inhibit-startup-screen t)
- '(initial-scratch-message nil)
- '(package-selected-packages (quote (use-package)))
+ '(initial-scratch-message ";; scratch")
+ '(ivy-magic-tilde nil)
+ '(package-selected-packages (quote (yaml-mode use-package)))
  '(word-wrap t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
