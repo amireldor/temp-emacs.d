@@ -19,13 +19,15 @@
 
 ")
  '(ivy-magic-tilde nil)
- '(package-selected-packages (quote (yaml-mode use-package)))
+ '(package-selected-packages
+   (quote
+    (smartparens aggressive-indent clj-refactor rainbow-delimiters aggressive-indent-mode yasnippet clojure-mode rjsx-mode js2-mode yaml-mode use-package)))
  '(word-wrap t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((((class color) (min-colors 89)) (:foreground "#d3d3d3" :background "#000000")))))
 
 (provide 'amir-customize)

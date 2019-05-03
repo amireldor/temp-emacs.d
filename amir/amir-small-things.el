@@ -8,7 +8,7 @@
 (setq coding-system-for-write 'utf-8)
 (setq sentence-end-double-space nil)
 (global-linum-mode)
-
+(set-language-environment "UTF-8")
 
 ;; UTF-8 please
 (setq locale-coding-system 'utf-8)
