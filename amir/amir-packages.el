@@ -16,6 +16,7 @@
 
 (require 'use-package)
 (setq use-package-always-ensure t)
+(setq use-package-verbose t)
 
 (use-package better-defaults)
 
@@ -36,11 +37,14 @@
 (use-package expand-region
   :bind ("C-=" . er/expand-region))
 
-(use-package markdown-preview-mode)
+(use-package markdown-preview-mode
+  :commands markdown-preview-mode)
 
-(use-package magit)
+(use-package magit
+  :commands magit-mode)
 
-(use-package markdown-mode)
+(use-package markdown-mode
+  :commands markdown-mode)
 
 (use-package better-defaults)
 
@@ -70,10 +74,13 @@
   :config
   (setq projectile-completion-system 'ivy))
 
-(use-package yaml-mode)
+(use-package yaml-mode
+  :commands yaml-mode)
 
-(use-package js2-mode)
-(use-package rjsx-mode)
+(use-package js2-mode
+  :commands js2-mode)
+(use-package rjsx-mode
+  :commands rjsx-mode)
 ;; (use-package js2-refactor
 ;;  :config
 ;;   (add-hook 'js2-mode-hook #'js2-refactor-mode))
@@ -106,10 +113,12 @@
 
 (use-package smartparens)
 
-(use-package cider)
+(use-package cider
+  :commands cider)
 
 (use-package clj-refactor
+  :commands clj-refactor-mode
   :config
   (add-hook 'clojure-mode-hook #'my-clojure-mode-hook))
- 
+
 (provide 'amir-packages)
